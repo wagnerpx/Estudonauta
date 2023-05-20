@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, % 
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* lighter, normal, bold, bolder */
+        }   
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'whork sans';
+            */
+            font: italic bolder 3em 'works sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans', sans-serif;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti aliquam quo cupiditate molestiae vel qui debitis, culpa voluptas? Asperiores tenetur pariatur tempora fuga. Quis eveniet ratione illum quia doloremque nulla. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptate neque odio corrupti facilis et eveniet autem similique possimus id ab, incidunt sed sunt. Aut illum quos minus inventore eius.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia cum molestiae ipsa culpa consequuntur labore dolore, earum at pariatur consequatur iste consectetur, suscipit obcaecati porro nobis soluta libero. Facere?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos iste nobis ipsa et natus deserunt! Accusamus facere vel mollitia obcaecati adipisci, saepe iure, officiis consequatur quia, reprehenderit debitis incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laboriosam, nostrum assumenda, ad delectus provident ea ab et facere fugit quaerat non inventore harum accusamus voluptatum optio velit rerum a!</p>
+</body>
+</html>
