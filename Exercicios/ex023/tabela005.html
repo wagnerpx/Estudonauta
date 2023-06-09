@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .verde {
+            background-color: greenyellow;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="verde" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Fabio Moura</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Arquiteto</td>
+        </tr>
+        <tr>
+            <td>Maria Lucia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Farmacéutica</td>
+        </tr>
+        <tr>
+            <td>Ana Beatriz</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Bióloga</td>
+        </tr>
+        <tr>
+            <td>Pedro Paulo</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engenheiro Civil</td>
+        </tr>
+    </table>
+</body>
+</html>
