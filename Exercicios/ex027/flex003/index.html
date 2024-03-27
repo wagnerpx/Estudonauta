@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexible Box</title>
     <style>
-        body {
-            display: flex;
-            justify-content: space-evenly;
-        }
+      body {
+        display: flex;
+        justify-content: center;
+      }
 
-        div.container{
-            background-color: aquamarine;
-            display: flex;
-            flex-flow: row wrap-reverse;
-        }
+      div.container {
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
 
-        div.item {
-            background: blueviolet url(images/armadeira.jpg) no-repeat;
-            background-position: center center;
-            background-attachment: fixed;
-            background-size: cover;
-            border: 1px solid black;
-            margin: 5px;
-            display: flex;
-            flex: auto;
-            justify-content: center;
-            align-items: center;
-            width: 250px;
-            height: 250px;
-        }
+      div.item {
+        background: blueviolet url(images/tarantula.jpg) no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+        background-size: cover;
+        border: 1px solid black;
+        margin: 2px;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="item">Exemplo de Bloco A</div>
-        <div class="item">Exemplo de Bloco B</div>
-        <div class="item">Exemplo de Bloco C</div>
-        <div class="item">Exemplo de Bloco D</div>
-        <div class="item">Exemplo de Bloco E</div>
-        <div class="item">Exemplo de Bloco F</div>
+      <div class="item">Exemplo de Bloco A</div>
+      <div class="item">Exemplo de Bloco B</div>
+      <div class="item">Exemplo de Bloco C</div>
+      <div class="item">Exemplo de Bloco D</div>
+      <div class="item">Exemplo de Bloco E</div>
+      <div class="item">Exemplo de Bloco F</div>
     </div>
-</body>
+  </body>
 </html>
