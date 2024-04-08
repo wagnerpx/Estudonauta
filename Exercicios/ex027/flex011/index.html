@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
     <style>
-        div.container{
+        div.container1 {
             background-color: aquamarine;
             display: flex;
             flex-flow: row nowrap;
+            margin: 5px;
+        }
+
+        div.container2 {
+            background-color: brown;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 5px;
+        }
+
+        div.container3 {
+            background-color: chartreuse;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 5px;
         }
 
         div.item {
@@ -18,27 +33,37 @@
             flex-basis: 250px;
         }
 
-        div#cxA {
+        div#cxA1 {
             flex-shrink: 1;
             flex-grow: 1;
         }
 
-        div#cxB {
+        div#cxB2 {
             flex-shrink: 3;
             flex-grow: 1;
         }
 
-        div#cxC {
+        div#cxC3 {
             flex-shrink: 2;
             flex-grow: 3;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="item" id="cxA">A</div>
-        <div class="item" id="cxB">B</div>
-        <div class="item" id="cxC">C</div>
+    <div class="container1">
+        <div class="item" id="cxA1">A</div>
+        <div class="item" id="cxA2">B</div>
+        <div class="item" id="cxA3">C</div>
+    </div>
+    <div class="container2">
+        <div class="item" id="cxB1">A</div>
+        <div class="item" id="cxB2">B</div>
+        <div class="item" id="cxB3">C</div>
+    </div>
+    <div class="container3">
+        <div class="item" id="cxC1">A</div>
+        <div class="item" id="cxC2">B</div>
+        <div class="item" id="cxC3">C</div>
     </div>
 </body>
 </html>
