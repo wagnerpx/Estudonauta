@@ -50,3 +50,9 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <a href="https://wagnerpx.github.io/Estudonauta/Exercicios/ex021/index.html">exe 021</a>
 
 <a href="https://wagnerpx.github.io/Estudonauta/Exercicios/ex022/index.html">exe 022</a>
+
+<a href="https://wagnerpx.github.io/Estudonauta/Exercicios/ex023/index.html">exe 023</a>
+
+<a href="https://wagnerpx.github.io/Estudonauta/Exercicios/ex024/index.html">exe 024</a>
+
+<a href="https://wagnerpx.github.io/Estudonauta/Exercicios/ex025/index.html">exe 025</a>
